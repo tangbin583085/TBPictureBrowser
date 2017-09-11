@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TBViewController">
+            <connections>
+                <outlet property="imageView" destination="eFS-IT-ATz" id="F8a-UZ-sK5"/>
+                <outlet property="imageView2" destination="42w-rH-5eh" id="iDn-La-teE"/>
+                <outlet property="imageView3" destination="nKg-O3-oNe" id="jk5-c0-zxh"/>
+                <outlet property="imageView4" destination="wXb-Et-6F7" id="yAI-YX-yIJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test1" translatesAutoresizingMaskIntoConstraints="NO" id="eFS-IT-ATz">
+                    <rect key="frame" x="39" y="75" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6py-P6-2v8"/>
+                        <constraint firstAttribute="width" constant="100" id="eki-X2-wjy"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test2" translatesAutoresizingMaskIntoConstraints="NO" id="42w-rH-5eh">
+                    <rect key="frame" x="199" y="75" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="G9k-P8-CzM"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="XMN-R5-msc"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="kj3-LN-L9R"/>
+                        <constraint firstAttribute="width" constant="100" id="lNY-KY-QOB"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test3" translatesAutoresizingMaskIntoConstraints="NO" id="nKg-O3-oNe">
+                    <rect key="frame" x="39" y="167" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CDC-1Q-Buq"/>
+                        <constraint firstAttribute="width" constant="100" id="WbQ-iZ-ZGz"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="YMi-zG-Dae"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="fOw-ST-BiG"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test4" translatesAutoresizingMaskIntoConstraints="NO" id="wXb-Et-6F7">
+                    <rect key="frame" x="199" y="167" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="hb8-83-n9S"/>
+                        <constraint firstAttribute="height" constant="50" id="y9J-PH-vtT"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eFS-IT-ATz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="56b-c6-rTX"/>
+                <constraint firstItem="eFS-IT-ATz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="39" id="BVj-eG-VoN"/>
+                <constraint firstItem="wXb-Et-6F7" firstAttribute="leading" secondItem="nKg-O3-oNe" secondAttribute="trailing" constant="60" id="EBR-IN-A8L"/>
+                <constraint firstAttribute="trailing" secondItem="42w-rH-5eh" secondAttribute="trailing" constant="76" id="MKr-C5-e4v"/>
+                <constraint firstItem="wXb-Et-6F7" firstAttribute="top" secondItem="42w-rH-5eh" secondAttribute="bottom" constant="42" id="Tjx-S0-ZVM"/>
+                <constraint firstItem="nKg-O3-oNe" firstAttribute="top" secondItem="eFS-IT-ATz" secondAttribute="bottom" constant="42" id="U2D-D0-ocK"/>
+                <constraint firstItem="nKg-O3-oNe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="39" id="anH-jM-nz3"/>
+                <constraint firstItem="42w-rH-5eh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="b1k-Au-rqi"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="test1" width="450" height="300"/>
+        <image name="test2" width="450" height="300"/>
+        <image name="test3" width="450" height="300"/>
+        <image name="test4" width="450" height="300"/>
+    </resources>
+</document>
