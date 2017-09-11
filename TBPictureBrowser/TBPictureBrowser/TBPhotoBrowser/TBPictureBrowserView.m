@@ -128,20 +128,15 @@
     }];
 }
 
--(void)doubleTap {
-    NSLog(@"%s", __func__);
-}
 
 
 
 - (void)longGesture:(UITapGestureRecognizer *)gesture{
-    NSLog(@"%s", __func__);
     
     if (gesture.state != UIGestureRecognizerStateBegan) return;
     
     __weak typeof (self) weakSelf = self;
     ACActionSheet *sheet = [[ACActionSheet alloc] initWithTitle:nil cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@[@"保存"] actionSheetBlock:^(NSInteger buttonIndex) {
-        NSLog(@"%ld", buttonIndex);
         if (buttonIndex == 0) {
             [weakSelf saveImage];
         }
@@ -201,7 +196,6 @@
         [self launchAnimation];
     }
     
-    NSLog(@"%s", __func__);
     self.contentSC.frame = self.bounds;
     self.pageControl.center = CGPointMake(self.width * 0.5f, self.height - 20);
     
@@ -277,8 +271,6 @@
 - (void)dealloc {
     // 显示状态栏
     [UIApplication sharedApplication].statusBarHidden = NO;
-    
-    NSLog(@"%s", __func__);
 }
 
 @end

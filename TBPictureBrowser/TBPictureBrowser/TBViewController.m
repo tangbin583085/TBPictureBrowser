@@ -72,7 +72,6 @@
 }
 
 - (void)tapImage:(UIGestureRecognizer *)gesture {
-    NSLog(@"%s", __func__);
     
     TBPictureBrowserView *photoBrowser = [[TBPictureBrowserView alloc] init];
     photoBrowser.delegate = self;
@@ -93,7 +92,7 @@
 
 
 - (IBAction)btnClick:(id)sender {
-    NSLog(@"%s", __func__);
+    
     
 }
 @end

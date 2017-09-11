@@ -73,8 +73,6 @@
     if ([self.delegate respondsToSelector:@selector(imageViewTap)]) {
         [self.delegate imageViewTap];
     }
-    
-    NSLog(@"%s", __func__);
 }
 
 -(void)doubleTap {
