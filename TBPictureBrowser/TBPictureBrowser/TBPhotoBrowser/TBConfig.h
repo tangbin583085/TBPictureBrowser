@@ -14,3 +14,6 @@
 
 #define TBSaveImageFailText @"保存失败"
 #define TBSaveImageSuccessText @"保存成功"
+
+#define maxScale 3.0
+#define minScale 1.0

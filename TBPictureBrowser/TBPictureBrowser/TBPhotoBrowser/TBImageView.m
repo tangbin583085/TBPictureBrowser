@@ -104,6 +104,9 @@
     
     self.tbScale = scale;
     
+    // 不能极限比例
+    if (maxScale <= self.tbScale || self.tbScale <= minScale) return;
+    
     [self setupScrollView];
     
     self.scrollView.contentSize = CGSizeMake(self.scrollView.bounds.size.width * scale, self.scrollView.bounds.size.height * scale);
