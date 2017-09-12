@@ -12,7 +12,6 @@
 #import "TBConfig.h"
 #import "UIImageView+WebCache.h"
 
-
 @interface TBImageView ()
 
 @property (nonatomic, assign)CGFloat tbScale;
