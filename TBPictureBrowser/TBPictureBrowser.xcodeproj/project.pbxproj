@@ -33,7 +33,7 @@
 		5155137B1F66929700F96C41 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5155136A1F66929700F96C41 /* UIImageView+HighlightedWebCache.m */; };
 		5155137C1F66929700F96C41 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5155136C1F66929700F96C41 /* UIImageView+WebCache.m */; };
 		5155137D1F66929700F96C41 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5155136E1F66929700F96C41 /* UIView+WebCacheOperation.m */; };
-		515513DC1F67B25500F96C41 /* AirPalyer 2017-09-12 14.10.54.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515513DB1F67B25500F96C41 /* AirPalyer 2017-09-12 14.10.54.mp4 */; };
+		515513DE1F67B9E000F96C41 /* 2017-09-12 14_43_36.gif in Resources */ = {isa = PBXBuildFile; fileRef = 515513DD1F67B9E000F96C41 /* 2017-09-12 14_43_36.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,7 +108,7 @@
 		5155136C1F66929700F96C41 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		5155136D1F66929700F96C41 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		5155136E1F66929700F96C41 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		515513DB1F67B25500F96C41 /* AirPalyer 2017-09-12 14.10.54.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AirPalyer 2017-09-12 14.10.54.mp4"; sourceTree = "<group>"; };
+		515513DD1F67B9E000F96C41 /* 2017-09-12 14_43_36.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2017-09-12 14_43_36.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,7 +264,7 @@
 		515513DA1F67B25500F96C41 /* screenshot */ = {
 			isa = PBXGroup;
 			children = (
-				515513DB1F67B25500F96C41 /* AirPalyer 2017-09-12 14.10.54.mp4 */,
+				515513DD1F67B9E000F96C41 /* 2017-09-12 14_43_36.gif */,
 			);
 			path = screenshot;
 			sourceTree = "<group>";
@@ -378,7 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				515513DC1F67B25500F96C41 /* AirPalyer 2017-09-12 14.10.54.mp4 in Resources */,
+				515513DE1F67B9E000F96C41 /* 2017-09-12 14_43_36.gif in Resources */,
 				5155131B1F6690FB00F96C41 /* LaunchScreen.storyboard in Resources */,
 				515513181F6690FB00F96C41 /* Assets.xcassets in Resources */,
 				5155134A1F66915400F96C41 /* TBViewController.xib in Resources */,
