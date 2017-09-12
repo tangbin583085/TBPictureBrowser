@@ -14,6 +14,7 @@
 
 @interface TBImageView ()
 
+// 放大倍数
 @property (nonatomic, assign)CGFloat tbScale;
 @property (nonatomic, weak)UIScrollView *scrollView;
 @property (nonatomic, weak)UIPinchGestureRecognizer *pinchGesture;
